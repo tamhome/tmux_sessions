@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SESSION="tamhome_human_navigation"
+SESSION="tamhome_handyman"
 
 # セッション作成（すでに存在する場合はスキップ）
 tmux has-session -t $SESSION 2>/dev/null
