@@ -23,7 +23,7 @@ if [ $? != 0 ]; then
     tmux send-keys -t $SESSION 'source devel/setup.bash' C-m
     tmux send-keys -t $SESSION 'sleep 2' C-m
     tmux send-keys -t $SESSION 'clear' C-m
-    tmux send-keys -t $SESSION 'roslaunch human_navigation task.launch'
+    tmux send-keys -t $SESSION 'roslaunch human_navigation human_navigation.launch'
 fi
 
 # セッションにアタッチ
